@@ -4,7 +4,7 @@ import Input from "./Input.js";
 import Button from "./Button.js";
 
 // TODO: Replace with your own publishable key
-const stripeLoadedPromise = loadStripe("PK_REPLACE_WITH_YOUR_PUBLISHABLE_KEY");
+const stripeLoadedPromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
 export default function Cart({ cart }) {
   const totalPrice = cart.reduce(
