@@ -4,7 +4,7 @@ import Input from "./Input.js";
 import Button from "./Button.js";
 
 // TODO: Replace with your own publishable key
-const stripeLoadedPromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
+const stripeLoadedPromise = loadStripe("");
 
 export default function Cart({ cart }) {
   const totalPrice = cart.reduce(
@@ -26,8 +26,8 @@ export default function Cart({ cart }) {
         .redirectToCheckout({
           lineItems: lineItems,
           mode: "payment",
-          successUrl: "https://superm.react-tutorial.app/",
-          cancelUrl: "https://superm.react-tutorial.app/",
+          successUrl: "",
+          cancelUrl: "",
           customerEmail: email,
         })
         .then((response) => {
