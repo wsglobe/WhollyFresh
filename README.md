@@ -1,5 +1,5 @@
-# whollyFresh - A Supermarket App
-## 
+# whollyFresh - Grocery Shopping Simplified
+## Order your groceries with our easy to use app. We guarantee fresh produce and sameday delivery.
 ## Built with
 * React
 * Stripe(Currently working on checkout)
